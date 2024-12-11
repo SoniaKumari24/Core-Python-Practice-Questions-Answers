@@ -1,0 +1,6 @@
+# Find the intersection of two lists:
+
+list1 = list(map(int, input("Enter first list of numbers separated by spaces: ").split()))
+list2 = list(map(int, input("Enter second list of numbers separated by spaces: ").split()))
+intersection = [value for value in list1 if value in list2]
+print(f"Intersection of two lists: {intersection}")
