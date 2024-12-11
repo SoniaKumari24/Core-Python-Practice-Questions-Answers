@@ -1,0 +1,8 @@
+# Find the largest number in a list without using the max() function:
+
+numbers = list(map(int, input("Enter numbers separated by spaces: ").split()))
+largest = numbers[0]
+for num in numbers:
+    if num > largest:
+        largest = num
+print(f"The largest number is {largest}")
