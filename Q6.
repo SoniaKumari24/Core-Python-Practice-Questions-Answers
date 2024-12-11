@@ -1,0 +1,8 @@
+# Find the index of an element in a tuple:
+
+tup = tuple(map(int, input("Enter tuple elements separated by spaces: ").split()))
+element = int(input("Enter the element to find: "))
+if element in tup:
+    print(f"The index of {element} is {tup.index(element)}")
+else:
+    print("Element not found in tuple")
